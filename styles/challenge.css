@@ -3,7 +3,6 @@
 
 #banner{
     height: 624px;
-   
     background-image: url("../images/Hero-bg.png");
     background-size: cover;
     background-position: center;
@@ -24,9 +23,11 @@
     font-size: 48px;
     font-weight: 800;
     line-height: 68px;
-    letter-spacing: 0%;
+    letter-spacing: 0px;
+    width: 750px;
     text-align: center;
-
+    padding-bottom:0px;
+    word-spacing: 20px;
 }
 
 .subtitle{
