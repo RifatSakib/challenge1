@@ -4,7 +4,7 @@
 #banner{
     height: 624px;
    
-    background-image: url("/images/Hero-bg.png");
+    background-image: url("../images/Hero-bg.png");
     background-size: cover;
     background-position: center;
     display: flex;
@@ -29,7 +29,7 @@
 
 }
 
-.banner-subtitle{
+.subtitle{
     color: rgb(13, 19, 33);
 font-family: Azeret Mono;
 font-size: 16px;
@@ -42,7 +42,7 @@ opacity: 0.7;
 }
 
 .btn-primary{
-    border-radius: 8px;
+border-radius: 8px;
 background: rgb(13, 19, 33);
 color: white;
 padding: 21px 24px;
