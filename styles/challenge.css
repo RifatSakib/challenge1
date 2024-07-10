@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 
-
+/* banner style */
 #banner{
     height: 624px;
     background-image: url("../images/Hero-bg.png");
@@ -10,12 +10,20 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding: 50px 0px;
+
     
 }
 
-.text-center{
-    text-align: center;
+.banner-body{
+    width: 998px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
 }
+
 
 .banner-title{
     color: rgb(13, 19, 33);
@@ -23,23 +31,27 @@
     font-size: 48px;
     font-weight: 800;
     line-height: 68px;
-    letter-spacing: 0px;
-    width: 850px;
     text-align: center;
     padding-bottom:0px;
-    word-spacing: 20px;
+    
+}
+
+/* shared style */
+.text-center{
+    text-align: center;
 }
 
 .subtitle{
-    color: rgb(13, 19, 33);
-font-family: Azeret Mono;
-font-size: 16px;
-font-weight: 400;
-line-height: 26px;
-letter-spacing: 0%;
-text-align: center;
-opacity: 0.7;
 
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: 0.7;
+    padding: 0px 150px;
 }
 
 .btn-primary{
@@ -56,3 +68,92 @@ text-align: center;
 }
 
 
+
+#why-web{
+    display: flex;
+    width: 1140px;
+    height:auto;
+    background: rgba(13, 19, 33, 0.02);
+    background-size: cover;
+    background-position: center;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 16px;
+    margin: 75px auto;
+}
+
+.why-body{
+    padding: 80px 97px;
+}
+
+.title-part{
+    margin-bottom: 48px;
+}
+
+.why-title{
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 37px;
+    text-align: center;
+
+}
+
+
+.column-title{
+    color: rgba(13, 19, 33, 0.7);
+font-family: Azeret Mono;
+font-size: 24px;
+font-weight: 700;
+line-height: 36px;
+margin-bottom: 12px;
+}
+
+.column-subtitle{
+color: rgba(13, 19, 33, 0.7);
+font-family: Azeret Mono;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0%;
+text-align: left;
+margin-bottom: 32px;
+
+}
+
+.common-button{
+
+color: rgba(13, 19, 33, 0.7);
+font-family: Azeret Mono;
+font-size: 20px;
+font-weight: 600;
+line-height: 23px;
+padding: 12px 20px 12px 20px;
+}
+
+.column{
+    display: flex;
+    justify-content: space-between;
+    border-radius: 16px;
+background: linear-gradient(90.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
+padding: 48px 48px ;
+margin-bottom: 32px;
+}
+
+.column-space-around{
+    justify-content: space-around;
+}
+
+#inspiration{
+    display: flex;
+    width: 1140px;
+    height:auto;
+    flex-direction: column;
+    align-items: center;
+    margin: 80px auto;
+}
+
+.ins-title-part{
+   margin-bottom: 48px;
+   padding: 0px 144px;
+}
